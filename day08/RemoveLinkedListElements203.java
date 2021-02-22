@@ -12,7 +12,7 @@ package day08;
     ListNode1(int val) { this.val = val; }
     ListNode1(int val, ListNode1 next) { this.val = val; this.next = next; }
 }
-public class three {
+public class RemoveLinkedListElements203 {
     public ListNode1 removeElements(ListNode1 head, int val) {
         if (head==null)
             return null;
