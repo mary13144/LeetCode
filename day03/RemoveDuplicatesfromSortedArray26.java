@@ -19,7 +19,7 @@ public class RemoveDuplicatesfromSortedArray26 {
             }
             p++;
         }
-        return q;
+        return q+1;
 
     }
 
